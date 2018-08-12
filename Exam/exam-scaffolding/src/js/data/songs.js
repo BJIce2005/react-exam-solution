@@ -2,6 +2,11 @@ import eminem from '../../assets/images/eminem-profile.jpg';
 import pac from '../../assets/images/2pac-profile.jpeg';
 import justin from '../../assets/images/justin-timberlake-profile.jpg';
 import theweeknd from '../../assets/images/the-weeknd-profile.png';
+import redhot from '../../assets/images/redhot.jpg';
+import nirvana from '../../assets/images/nirvana.jpg';
+import audioslave from '../../assets/images/audioslave.jpg';
+import pearljam from '../../assets/images/pearljam.jpg';
+import metallica from '../../assets/images/metallica.jpg';
 
 const songs = [
     {
@@ -36,8 +41,43 @@ const songs = [
       title: "Losers",
       artist: "The Weeknd",
       image: theweeknd,
-      rank: 1,
+      rank: 2,
       id: 5
+    },
+    {
+        title: "Other side",
+        artist: "Red Hot Chili Peppers",
+        image: redhot,
+        rank: 4,
+        id: 6
+    },
+    {
+        title: "Come as you are",
+        artist: "Nirvana",
+        image: nirvana,
+        rank: 5,
+        id: 7
+    },
+    {
+        title: "Be yourself",
+        artist: "Audioslave",
+        image: audioslave,
+        rank: 5,
+        id: 8
+    },
+    {
+        title: "Black",
+        artist: "Pearl Jam",
+        image: pearljam,
+        rank: 4,
+        id: 9
+    },
+    {
+        title: "One",
+        artist: "Metallica",
+        image: metallica,
+        rank: 3,
+        id: 10
     }
 ];
 

@@ -168,7 +168,7 @@ module.exports = env => {
       quiet: true, // use friendly errors plugin
       stats: "errors-only",
       host: "127.0.0.1", // access server externally
-      port: 4043,
+      port: 4044,
       historyApiFallback: true,
     },
     devtool: isProduction ? "source-map" : "eval-source-map", //"cheap-module-source-map",
