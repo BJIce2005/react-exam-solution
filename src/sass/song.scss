@@ -1,0 +1,89 @@
+.song {
+  min-width: 200px;
+  max-width: 250px;
+  min-height: 200px;
+  margin: 10px;
+}
+
+ul.songs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  & > li {
+    float: left;
+    width: 96%;
+    margin: 2%;
+    clear: left;
+  }
+
+  img {
+    float: left;
+    width: 15%;
+    height: 10vw;
+    object-fit: cover;
+    object-position: top center;
+  }
+
+  div.details {
+    float: left;
+    width: 85%;
+  }
+
+  div.details > h1 {
+    float: left;
+    font-size: 2.5vw;
+    margin: 1vw;
+    width: 75%;
+  }
+
+  div.details > h2 {
+    float: left;
+    font-size: 1.8vw;
+    margin: 0 1vw;
+    width: 75%;
+  }
+}
+
+ul.in_playlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  & > li {
+    float: left;
+    width: 19%;
+    margin: 2% 0.5%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5vw;
+    text-align: center;
+  }
+
+  h2 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.8vw;
+    font-style: italic;
+  }
+}
+
+h2.create_list {
+  margin: 15px;
+}
+
+form.playlist_frm {
+  margin: 0 0 20px 0;
+}
+ol.playlist_short {
+  margin: 0;
+}
+
+ol.playlist_sidebar {
+  padding: 0;
+}
